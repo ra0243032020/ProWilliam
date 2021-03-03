@@ -8,3 +8,13 @@ C:\Users\William\Documents\codigo vs2019\William01\William01\obj\Debug\William01
 C:\Users\William\Documents\codigo vs2019\William01\William01\obj\Debug\William01.csproj.CoreCompileInputs.cache
 C:\Users\William\Documents\codigo vs2019\William01\William01\obj\Debug\William01.exe
 C:\Users\William\Documents\codigo vs2019\William01\William01\obj\Debug\William01.pdb
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\bin\Debug\William01.exe.config
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\bin\Debug\William01.exe
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\bin\Debug\William01.pdb
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.csprojAssemblyReference.cache
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.Properties.Resources.resources
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.Form1.resources
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.csproj.GenerateResource.cache
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.exe
+C:\Users\William\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.pdb

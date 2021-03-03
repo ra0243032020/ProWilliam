@@ -9,7 +9,21 @@ namespace William01.NEGOCIO
 {
     class ClsLogin
     {
-        Login log = new Login();
+
+
+
+        public int acceso(Login log)
+        {
+            int estado = 0;
+            if (log.Usuario.Equals("william") && log.Password.Equals("123")) {
+                estado = 1;
+
+            }
+            return estado;
+
+
+        }
+
 
     }
 }
