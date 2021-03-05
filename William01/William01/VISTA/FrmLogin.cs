@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using William01.DOMINIO;
+using William01.NEGOCIO;
 
 namespace William01
 {
@@ -19,7 +21,22 @@ namespace William01
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Login log 
+            Login log = new Login();
+            
+            log.Usuario = txtUser.Text;
+            log.Password = txtPass.Text;
+
+            ClsLogin clsL = new ClsLogin();
+
+            int variabledeevaluacion = clsL.acceso(log);
+
+            if (variabledeevaluacion == 1) {
+
+                MessageBox.Show("welcome");
+
+            }
+            else
+                MessageBox.Show("False");
         }
 
         private void txtUser_TextChanged(object sender, EventArgs e)
@@ -34,7 +51,7 @@ namespace William01
 
         private void btnCnacelar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("esc");
+            this.Close();
         }
     }
 }
