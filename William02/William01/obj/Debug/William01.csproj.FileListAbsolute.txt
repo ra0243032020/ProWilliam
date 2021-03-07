@@ -30,3 +30,16 @@ C:\Users\Dell\Documents\GitHub\ProWilliam\William01\William01\bin\Debug\William0
 C:\Users\Dell\Documents\GitHub\ProWilliam\William01\William01\bin\Debug\William01.pdb
 C:\Users\Dell\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.VISTA.FrmMenu.resources
 C:\Users\Dell\Documents\GitHub\ProWilliam\William01\William01\obj\Debug\William01.VISTA.FrmAcercaDe.resources
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\bin\Debug\William01.exe.config
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\bin\Debug\William01.exe
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\bin\Debug\William01.pdb
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.Properties.Resources.resources
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.VISTA.FrmAcercaDe.resources
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.Form1.resources
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.csproj.GenerateResource.cache
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.exe
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.pdb
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.VISTA.Frm1.resources
+C:\Users\Dell\Documents\GitHub\ProWilliam\William02\William01\obj\Debug\William01.VISTA.FrmListaVisualDeUsuario.resources

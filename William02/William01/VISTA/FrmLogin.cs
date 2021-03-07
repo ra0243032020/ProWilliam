@@ -34,7 +34,7 @@ namespace William01
             if (variabledeevaluacion == 1) {
 
                 MessageBox.Show("welcome");
-                FrmMenu frm = new FrmMenu();
+                Frm1 frm = new Frm1();
                 frm.Show();
                 this.Hide();
 

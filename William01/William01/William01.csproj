@@ -46,20 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO\ClsListaUsuario.cs" />
     <Compile Include="DOMINIO\Login.cs" />
-    <Compile Include="NEGOCIO\ClsLogin.cs" />
+    <Compile Include="..\..\William02\ClsLogin.cs">
+      <Link>NEGOCIO\ClsLogin.cs</Link>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="VISTA\FrmAcercaDe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="VISTA\FrmAcercaDe.Designer.cs">
       <DependentUpon>FrmAcercaDe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmListaVisualDeUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmListaVisualDeUsuario.Designer.cs">
-      <DependentUpon>FrmListaVisualDeUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="VISTA\FrmLogin.cs">
       <SubType>Form</SubType>
@@ -86,9 +84,6 @@
     </Compile>
     <EmbeddedResource Include="VISTA\FrmAcercaDe.resx">
       <DependentUpon>FrmAcercaDe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmListaVisualDeUsuario.resx">
-      <DependentUpon>FrmListaVisualDeUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VISTA\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

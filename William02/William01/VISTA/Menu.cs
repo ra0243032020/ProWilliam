@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace William01.VISTA
 {
-    public partial class FrmMenu : Form
+    public partial class Frm1 : Form
     {
-        public FrmMenu()
+        public Frm1()
         {
             InitializeComponent();
         }
@@ -28,6 +28,13 @@ namespace William01.VISTA
             frm.MdiParent = this;
             frm.Show();
           
+        }
+
+        private void clickParaMasInformacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmListaVisualDeUsuario frm = new FrmListaVisualDeUsuario();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }
