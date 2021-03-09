@@ -77,3 +77,4 @@ C:\Users\Dell\Documents\GitHub\ProWilliam\William04\William01\obj\Debug\William0
 C:\Users\Dell\Documents\GitHub\ProWilliam\William04\William01\obj\Debug\William01.csproj.CopyComplete
 C:\Users\Dell\Documents\GitHub\ProWilliam\William04\William01\obj\Debug\William01.exe
 C:\Users\Dell\Documents\GitHub\ProWilliam\William04\William01\obj\Debug\William01.pdb
+C:\Users\Dell\Documents\GitHub\ProWilliam\William04\William01\obj\Debug\William01.VISTA.FrmFoco.resources

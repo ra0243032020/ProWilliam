@@ -16,18 +16,31 @@ namespace William01.VISTA
         public FrmUsuarios()
         {
             InitializeComponent();
-            
-        }
-        void Carga(){
+            Carga();
+            clear();
 
-            dataGridView1.Rows.Clear();
+
+        }
+        void clear() {
+
+            txtId.Clear();
+            txtNombre.Clear();
+            txtApellido.Clear();
+            txtEdad.Clear();
+            txtPass.Clear();
+        
+        }
+        
+        void Carga(){
+            clear();
+            dtgListaUsuarios.Rows.Clear();
             using (programacionEntities db = new programacionEntities())
             {
                 var Lista = db.Userlist.ToList();
 
                 foreach (var iteracion in Lista)
                 {
-                     dataGridView1.Rows.Add(iteracion.Id,iteracion.NombreUsuario,iteracion.Apellido,iteracion.Edad,iteracion.Pass);
+                     dtgListaUsuarios.Rows.Add(iteracion.Id,iteracion.NombreUsuario,iteracion.Apellido,iteracion.Edad,iteracion.Pass);
                 }
 
             }
@@ -59,6 +72,7 @@ namespace William01.VISTA
         
         }
             Carga();
+            clear();
 
 
 
@@ -83,7 +97,7 @@ namespace William01.VISTA
 
                 using (programacionEntities db = new programacionEntities())
                 {
-                    int Eliminar = Convert.ToInt32(txtSin.Text);
+                    int Eliminar = Convert.ToInt32(txtId.Text);
                     Userlist userlistdddd = db.Userlist.Where(x => x.Id == Eliminar).Select(x => x).FirstOrDefault();                    
                    
                     //userlist = db.Userlist.Find(Eliminar);
@@ -99,6 +113,7 @@ namespace William01.VISTA
 
             }
             Carga();
+            clear();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -119,11 +134,12 @@ namespace William01.VISTA
                 using (programacionEntities db = new programacionEntities())
                 {
 
-                    int Update = Convert.ToInt32(txtSin.Text);
+                    int Update = Convert.ToInt32(txtId.Text);
                     Userlist user = db.Userlist.Where(x => x.Id == 3).Select(x => x).FirstOrDefault();
                     //Userlist userlistdddd = new Userlist();
                     //userlistdddd = db.Userlist.Find(7);
-                    user.NombreUsuario = txtNombre.Text;
+                    string text = txtNombre.Text;
+                    user.NombreUsuario = text;
                     user.Apellido = txtApellido.Text;
                     user.Edad = Convert.ToInt32(txtEdad.Text);
                     user.Pass = txtPass.Text;
@@ -136,6 +152,30 @@ namespace William01.VISTA
 
             }
             Carga();
+            clear();
+
+        }
+
+        private void dtgListaUsuarios_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            String Id = dtgListaUsuarios.CurrentRow.Cells[0].Value.ToString();
+            String Nombre = dtgListaUsuarios.CurrentRow.Cells[1].Value.ToString();
+            String Apellido = dtgListaUsuarios.CurrentRow.Cells[3].Value.ToString();
+            String Edad = dtgListaUsuarios.CurrentRow.Cells[3].Value.ToString();
+            String Pass = dtgListaUsuarios.CurrentRow.Cells[4].Value.ToString();
+
+
+
+            txtId.Text = Id;
+            txtNombre.Text = Nombre;
+            txtApellido.Text = Apellido;
+            txtEdad.Text = Edad;
+            txtPass.Text = Pass;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            clear();
         }
     }
 }

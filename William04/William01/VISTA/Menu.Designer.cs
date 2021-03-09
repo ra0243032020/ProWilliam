@@ -38,6 +38,8 @@ namespace William01.VISTA
             this.sumasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
+            this.coneccionesBdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.crudToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +48,8 @@ namespace William01.VISTA
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.acercaDeToolStripMenuItem,
             this.arreglosToolStripMenuItem,
-            this.matematicasToolStripMenuItem});
+            this.matematicasToolStripMenuItem,
+            this.coneccionesBdToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(797, 24);
@@ -98,7 +101,7 @@ namespace William01.VISTA
             // sumasToolStripMenuItem
             // 
             this.sumasToolStripMenuItem.Name = "sumasToolStripMenuItem";
-            this.sumasToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.sumasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sumasToolStripMenuItem.Text = "Suma";
             this.sumasToolStripMenuItem.Click += new System.EventHandler(this.sumasToolStripMenuItem_Click);
             // 
@@ -118,6 +121,22 @@ namespace William01.VISTA
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 15);
             this.label1.TabIndex = 3;
+            // 
+            // coneccionesBdToolStripMenuItem
+            // 
+            this.coneccionesBdToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.crudToolStripMenuItem});
+            this.coneccionesBdToolStripMenuItem.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coneccionesBdToolStripMenuItem.Name = "coneccionesBdToolStripMenuItem";
+            this.coneccionesBdToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
+            this.coneccionesBdToolStripMenuItem.Text = "Conecciones BD";
+            // 
+            // crudToolStripMenuItem
+            // 
+            this.crudToolStripMenuItem.Name = "crudToolStripMenuItem";
+            this.crudToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.crudToolStripMenuItem.Text = "Crud";
+            this.crudToolStripMenuItem.Click += new System.EventHandler(this.crudToolStripMenuItem_Click);
             // 
             // Frm1
             // 
@@ -151,5 +170,7 @@ namespace William01.VISTA
         private System.Windows.Forms.ToolStripMenuItem matematicasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sumasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem restaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem coneccionesBdToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem crudToolStripMenuItem;
     }
 }

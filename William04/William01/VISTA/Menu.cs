@@ -56,6 +56,13 @@ namespace William01.VISTA
 
             frmop.Show();
         }
+
+        private void crudToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmUsuarios frm = new FrmUsuarios();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
     }
 
